@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 
 use App\Modules\Base\Employee\Models\Employee;
 
-use Log;
+
 
 use Illuminate\Http\Request;
 
@@ -33,7 +33,7 @@ class EmployeeController extends Controller
 
         $Employee  = Employee::find($id);
 
-        Log::info('Getting Employee: '.$Employee);
+//        Log::info('Getting Employee: '.$Employee);
 
         return response()->json($Employee);
 

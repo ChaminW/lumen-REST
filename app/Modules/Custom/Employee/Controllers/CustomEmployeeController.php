@@ -7,7 +7,7 @@ namespace App\Modules\Custom\Employee\Controllers;
 use App\Modules\Base\Employee\Controllers\EmployeeController;
 
 
-use App\Modules\Custom\Employee\Models\CustomEmployee as Employee ;
+use App\Modules\Base\Employee\Models\Employee ;
 use Log;
 
 use Illuminate\Http\Request;
